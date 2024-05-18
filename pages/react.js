@@ -1,10 +1,14 @@
+import React from 'react';
+import 'h8k-components';
+import NotesApp from '../components/notes-app';
+
+const title = "Notes App";
 
 export default function ReactPage() {
-    return (
-      <div>
-        <h1>React Page</h1>
-        {/* Your React content here */}
-      </div>
-    );
-  }
-  
+  return (
+    <main>
+      <h8k-navbar header={title} />
+      <NotesApp />
+    </main>
+  );
+}
