@@ -1,12 +1,19 @@
-import "../app/globals.css";
+import Head from 'next/head'
 import RootLayout from "../app/layout";
+import { commonMetadata as metadata } from "../app/metadata";
+import "../app/globals.css";
 
-function MyApp({ Component, pageProps }) {
+function CapcoTestApp({ Component, pageProps }) {
   return (
-    <RootLayout>
-      <Component {...pageProps} />
-    </RootLayout>
+    <>
+      <Head>
+        <title>{metadata.title}</title>
+      </Head>
+      <RootLayout>
+        <Component {...pageProps} />
+      </RootLayout>
+    </>
   );
 }
 
-export default MyApp;
+export default CapcoTestApp;

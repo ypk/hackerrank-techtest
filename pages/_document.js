@@ -6,7 +6,6 @@ export default function Document() {
         <Html lang="en">
             <Head>
                 <meta charSet="UTF-8" />
-                <title>{metadata.title}</title>
                 <meta name="description" content={metadata.description} />
             </Head>
             <body>

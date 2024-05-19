@@ -1,48 +1,38 @@
 import React from "react";
-import Link from 'next/link';
 import "./index.css";
 
 function NotesApp() {
     return (
-        <>
-            <section className="layout-row align-items-center justify-content-center">
-                <div className="my-5 mx-auto">
-                    <Link href="/">
-                        <p className="outlined small">Back to home page</p>
-                    </Link>
-                </div>
-            </section>
-            <section>
-                <div className="my-50 mx-auto">
-                    <div className="container">
-                        <div className="layout">
-                            <div className="left">
-                                <div className="box header" data-title="header"></div>
-                                <div className="content">
-                                    <div className="box sidebar" data-title="sidebar"></div>
-                                    <div className="box article" data-title="article"></div>
-                                </div>
-                                <div className="box footer" data-title="footer"></div>
+        <section>
+            <div className="my-50 mx-auto">
+                <div className="container">
+                    <div className="layout">
+                        <div className="left">
+                            <div className="box header" data-title="header"></div>
+                            <div className="content">
+                                <div className="box sidebar" data-title="sidebar"></div>
+                                <div className="box article" data-title="article"></div>
                             </div>
-                            <div className="right">
-                                <div className="box aside-1" data-title="aside-1"></div>
-                                <div className="box aside-2" data-title="aside-2"></div>
-                                <div className="box aside-3" data-title="aside-3"></div>
-                            </div>
+                            <div className="box footer" data-title="footer"></div>
                         </div>
-                        <div className="template">
-                            <div className="box box-1" data-title="header"></div>
-                            <div className="box box-2" data-title="sidebar"></div>
-                            <div className="box box-3" data-title="article"></div>
-                            <div className="box box-4" data-title="footer"></div>
-                            <div className="box box-5" data-title="aside-1"></div>
-                            <div className="box box-6" data-title="aside-2"></div>
-                            <div className="box box-7" data-title="aside-3"></div>
+                        <div className="right">
+                            <div className="box aside-1" data-title="aside-1"></div>
+                            <div className="box aside-2" data-title="aside-2"></div>
+                            <div className="box aside-3" data-title="aside-3"></div>
                         </div>
                     </div>
+                    <div className="template">
+                        <div className="box box-1" data-title="header"></div>
+                        <div className="box box-2" data-title="sidebar"></div>
+                        <div className="box box-3" data-title="article"></div>
+                        <div className="box box-4" data-title="footer"></div>
+                        <div className="box box-5" data-title="aside-1"></div>
+                        <div className="box box-6" data-title="aside-2"></div>
+                        <div className="box box-7" data-title="aside-3"></div>
+                    </div>
                 </div>
-            </section>
-        </>
+            </div>
+        </section>
     );
 }
 
