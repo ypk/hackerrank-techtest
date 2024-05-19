@@ -1,0 +1,9 @@
+.tabs .tab-item.active {
+  background: white;
+  position: relative;
+  color: black;
+}
+
+.tabs .tab-item.active::before {
+  opacity: 1;
+}
