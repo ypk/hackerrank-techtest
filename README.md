@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+CSS: Flex Website Layout
 
-First, run the development server:
+Complete a website layout application with the following Ul components.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Demo:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![website layout](layout.png)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+left container
 
-## Learn More
+ - header
+ - content
+	 - sidebar
+	 - article
+ - footer
 
-To learn more about Next.js, take a look at the following resources:
+right container
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ - aside block 1
+ - aside block 2
+ - aside block 3
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+----
 
-## Deploy on Vercel
+Position all components as follows.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Use flex display to position elements.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Proportional sizes:
+
+ - The left container takes 4/5 of the parent's width.
+ - The right container takes 1/5 of the parent's width.
+ - The sidebar takes 1/4 of the parent's width.
+ - The article takes 3/4 of the parent's width.
+ - The header takes 1/5 of the parent's height.
+ - The footer takes 1/5 of the parent's height.
+
+Every layout component should be located exactly how it is shown on the template 
+
+The markup for the question is provided. Complete the src/css/style.css file to implement the required features.
+
+
+
+Read-only files
+
+ - test/*
+ - src/index.js
+ - src/index.html
+ - src/css/readonly.css
+ - app.js
+
