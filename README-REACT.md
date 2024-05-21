@@ -1,4 +1,4 @@
-# CAPCO Technical Test
+## CAPCO Technical Test
 
 React: Notes App
 
