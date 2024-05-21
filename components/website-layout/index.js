@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import "./layout.css";
+import "./readonly.css";
 
 function NotesApp() {
     return (
